@@ -1,0 +1,62 @@
+form {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin-top: 80px;
+}
+form .div1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+form .miniDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+form .miniDiv .check {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+form .miniDiv p {
+  margin-bottom: 20px;
+}
+form .div2 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+form .div2 button {
+  height: 40px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  background-color: crimson;
+  color: white;
+}
+form .div2 button:hover {
+  border: 3px solid black;
+  color: black;
+}
+form input,
+form select,
+form textarea {
+  width: 200px;
+  padding: 10px;
+}
+form input[type=radio] {
+  width: 30px;
+}
+form input[type=color] {
+  width: 60px;
+  padding: 3px 5px;
+  margin-left: 10px;
+}
+form input[type=file] {
+  padding: 0;
+}
+form input[type=checkbox] {
+  width: 30px;
+}/*# sourceMappingURL=input.css.map */

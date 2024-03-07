@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <title> input-table </title>
+</head>
+
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="/"> home </a></li>
+      <li><a href="input.html"> input page </a></li>
+      <li><a href="table.html"> table page </a></li>
+    </ul>
+  </nav>
+
+  <form action="#">
+    <div class="div1">
+      <label for="name"> What's your full name? </label>
+      <input type="text" id="name" autocomplete="off">
+
+      <label for="password"> Create password </label>
+      <input type="password" id="password">
+
+      <label for="email"> Write your email </label>
+      <input type="email" id="email" autocomplete="off">
+
+      <label for="date"> Select birthday </label>
+      <input type="date" id="date">
+    </div>
+
+    <div class="miniDiv">
+      <div>
+        <p> What's your gender? </p>
+
+        <div>
+          <label for="male"> Male </label>
+          <input type="radio" name="gender">
+  
+          <label for="female"> Female </label>
+          <input type="radio" name="gender">
+        </div>
+      </div>
+
+      <div>
+        <label for="color"> Choose color </label>
+        <input type="color" id="color">
+      </div>
+
+      <div class="check">
+        <label for="file"> Choose files </label>
+        <input type="file" id="file" multiple>
+      </div>
+
+      <div>
+        <label for="check"> Accept rules </label>
+        <input type="checkbox" id="check">
+      </div>
+    </div>
+
+    <div class="div2">
+      <label for="city"> Where you born? </label>
+      <select id="city">
+        <option value="#"> Baku </option>
+        <option value="#"> Sheki </option>
+        <option value="#"> Ganja </option>
+        <option value="#"> Qabala </option>
+        <option value="#"> Lankaran </option>
+      </select>
+
+      <label for="salary"> Write minimum salary </label>
+      <input type="number" id="salary">
+
+      <label for="msg"> Write about yourself </label>
+      <textarea id="msg"></textarea>
+
+      <button type="submit"> Submit </button>
+    </div>
+  </form>
+
+</body>
+
+</html>
